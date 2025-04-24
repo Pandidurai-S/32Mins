@@ -1,0 +1,39 @@
+{
+  "name": "32mins-project",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@react-three/drei": "^9.88.0",
+    "@react-three/fiber": "^8.15.16",
+    "next": "14.0.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "three": "^0.159.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/nesting": "^0.0.0-insiders.565cd3e",
+    "@types/node": "20.11.0",
+    "@types/react": "18.2.0",
+    "@types/react-dom": "18.2.0",
+    "@types/three": "^0.159.0",
+    "@typescript-eslint/eslint-plugin": "^6.19.0",
+    "@typescript-eslint/parser": "^6.19.0",
+    "autoprefixer": "^10.4.16",
+    "eslint": "8.56.0",
+    "eslint-config-next": "14.0.4",
+    "postcss": "^8.4.31",
+    "postcss-import": "^16.1.0",
+    "postcss-nesting": "^13.0.1",
+    "tailwindcss": "^3.3.0",
+    "typescript": "5.3.3"
+  },
+  "engines": {
+    "node": ">=18.17.0"
+  }
+}

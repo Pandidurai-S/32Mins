@@ -1,0 +1,124 @@
+.chatbot{
+    height: 45rem;
+    transition: all 0.3s ease;
+}
+
+.navbar{
+    background-color: #1A3ECA;
+}
+.bg-progress{
+    background-color: #1A3ECA;
+}
+
+.header-circle {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.message-container {
+    scrollbar-width: thin;
+    scrollbar-color: #1A3ECA transparent;
+}
+
+.message-container::-webkit-scrollbar {
+    width: 6px;
+}
+
+.message-container::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.message-container::-webkit-scrollbar-thumb {
+    background-color: #1A3ECA;
+    border-radius: 3px;
+}
+
+.chat-input {
+    border: 1px solid #e2e8f0;
+    transition: border-color 0.2s ease;
+}
+
+.chat-input:focus {
+    border-color: #1A3ECA;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(26, 62, 202, 0.1);
+}
+
+.send-button {
+    transition: all 0.2s ease;
+    background-color: #677083;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.send-button:hover {
+    transform: scale(1.05);
+    background-color: #384152;
+}
+
+.send-button:active {
+    transform: scale(0.95);
+}
+
+.message-bubble {
+    max-width: 80%;
+    word-wrap: break-word;
+}
+
+.user-message {
+    background-color: #384152;
+    color: white;
+    border-radius: 15px 15px 0 15px;
+}
+
+.bot-message {
+    background-color: #384152;
+    color: white;
+    border-radius: 15px 15px 15px 0;
+}
+
+.timestamp {
+    font-size: 0.75rem;
+    opacity: 0.7;
+}
+
+.resizer {
+    width: 5px;
+    cursor: ew-resize;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background-color: transparent;
+    transition: background-color 0.2s ease;
+    border-right: 1px solid white;
+}
+
+.resizer:hover {
+    background-color: rgba(26, 62, 202, 0.1);
+}
+
+.header-chatbot{
+    background-color: #202938;
+}
+.chatbot-body{
+    background-color: #202938;
+}
+.header-chatbot{
+    border-bottom: 1px solid white;
+}
+
+.input-chatbot {
+    position: relative;
+    background-color: #384152;
+    padding-top: 0.5rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+
